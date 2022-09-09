@@ -1,0 +1,139 @@
+img {
+  height: 100px;
+}
+
+#prevButton {
+  background-color: rgb(224, 27, 27);
+  ;
+  color: white;
+  border-radius: 10px;
+
+}
+
+#logo {
+  margin-left: 30px;
+}
+
+#nextButton {
+  background-color: rgb(25, 153, 244);
+  color: white;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: 15px;
+  text-decoration: underline;
+  animation-name: h1-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes h1-animation {
+  from {
+    color: black;
+  }
+
+  to {
+    color: red;
+  }
+
+  from {
+    margin-top: 15px;
+  }
+
+  to {
+    margin-top: 50px;
+  }
+
+}
+
+
+header {
+  margin-bottom: 100px;
+}
+
+#button {
+  margin-top: 100px;
+  border-radius: 10px;
+  border-width: 0;
+  background-color: rgb(25, 153, 244);
+  padding: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+#description {
+  color: rgb(15, 15, 234);
+  width: 100%;
+  background-color: orange;
+  border-radius: 8px;
+  border: 3px dashed red;
+  animation-name: description-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes description-animation {
+  from {
+    border-color: red;
+  }
+
+  to {
+    border-color: rgb(25, 153, 244);
+  }
+
+}
+
+#author {
+  text-align: center;
+  background-color: lightblue;
+  font-weight: bold;
+  color: red;
+  border-radius: 10px;
+  animation-name: author-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes author-animation {
+  from {
+    color: red;
+  }
+
+  to {
+    color: blue;
+  }
+
+}
+
+footer {
+  margin-top: 35px;
+  margin-left: 81px;
+}
+
+p {
+  cursor: pointer;
+}
+
+nav {
+  border: 3px dashed rgb(93, 9, 9);
+  padding: 15px;
+}
+
+#dropdown {
+  margin-left: -11px;
+}
+
+body {
+  background-color: rgb(216, 196, 171);
+}
+
+ul {
+  margin-left: 700px;
+}
